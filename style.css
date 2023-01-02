@@ -1,0 +1,25 @@
+.flexbutton{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:200px
+}
+input{
+    width:80%;
+    margin-left:45px;
+    height:41px;
+}
+input::after{
+    border-color: green;
+}
